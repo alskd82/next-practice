@@ -1,11 +1,11 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { useRouter } from 'next/router';
+// import { useRouter } from 'next/router';
 import React from 'react';
 
 export default function index({photos}) {
-    const router = useRouter();
-    console.log(router)
+    // const router = useRouter();
+    // console.log(router)
     const {title, url} = photos
     return (
         <div>
